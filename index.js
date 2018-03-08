@@ -23,6 +23,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+<<<<<<< HEAD
   item.remove(1)
 }
 
@@ -30,4 +31,11 @@ function placeOrder(cardNumber) {
   cardNumber = 83296759
   if placeOrder.hasOwnProperty = false return 'Sorry, we dont have a credit card on file for you' {
   } else if placeOrder = true (return 'Your total cost is $71, which will be charged to the card' + cardNumber)
+=======
+  item.remove(0)
+}
+
+function placeOrder(cardNumber) {
+  cardNumber = 69
+>>>>>>> b5c31de10890fa0cf36592a8fc13ea21a37f3dce
 }
